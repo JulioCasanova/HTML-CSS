@@ -1,0 +1,117 @@
+/*
+    selectores body header link p a footer form 
+    declaración --> color: red;
+        propiedad color, background, weith
+        valores de la propiedad red, 150px, Time New Roman 
+
+    tipo de selectores
+        selectores de etiqueta 
+            header{
+                background: pink;
+            }
+        
+        selectores descendientes
+            body header div nav ol il a {
+                text-decoration: none;
+            }
+        
+        selectores de clase 
+            .link {
+                text-decoration: none;
+                color: none;
+                background: none;
+                text-decoration: none;
+                text-decoration: none;
+                text-decoration: none;
+            }
+        
+        selectores de ID
+            #link {
+                text-decoration: none;
+            }
+Medidas
+            %, "px" , em, rem, vh 
+Colore
+            - palabras red, black ping green
+            - composición de colres rgb() rgb()
+            - composición matriz de saturación y luminosidad hls() hlsa()
+            - valores hexadecimales FF FF FF (rojo, ver, azul)
+
+FUENTES 
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+dimensiones fijas
+.hero{
+    height: 300px;
+}
+
+fondos
+.hero{
+    background-image: url(../images/fondo.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #1b2727;
+
+}
+
+bordes
+.proyectos{
+    border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-bottom: 10px solid orange;
+    border-left: 10px solid pink;
+    border-top-color: aqua;
+    border-top-style: dashed;
+}
+
+Margen 
+    margin 
+    margin-top
+    margin-botton
+    margin-left
+    margin-right
+
+Rellenos
+    padding: 10px 5px 5px 10px
+    padding 10px 5px 10px
+    paddin: 8px 12px
+
+Display
+
+*/
+.hero{
+    background-image: url(../images/fondo.jpg);
+    background-size: 1048px 720px;
+    background-repeat: repeat;
+    background-position-x:;
+    background-color: #48ecec;
+
+}
+.link {
+    text-decoration: none;
+    color: #90cdff;
+    background: #9292fa;
+    text-decoration: none;
+    text-decoration: none;
+    text-decoration: none;
+}
+body {
+    background-color: #86fcf2;
+  }
+  .proyectos{
+    border-top: 10px solid rgb(0, 89, 255);
+    border-right: 10px solid rgb(0, 89, 255);
+    border-bottom: 10px solid rgb(0, 89, 255);
+    border-left: 10px solid rgb(0, 89, 255);
+    border-top-color: rgb(0, 89, 255);
+    border-top-style: dashed;
+}
